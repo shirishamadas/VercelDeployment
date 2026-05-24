@@ -12,7 +12,7 @@ app.use("/api/swagger", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // GET endpoint
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello, world!" });
+  res.json({ message: "Hello Ponnu!!🥰" });
 });
 
 // POST endpoint
