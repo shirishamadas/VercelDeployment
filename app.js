@@ -12,7 +12,10 @@ app.use("/api/swagger", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // GET endpoint
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello Ponnu!!🥰" });
+  res.json({
+    message:
+      "Hello Ponnu!!🥰, I have deployed the API successfully using Vercel.",
+  });
 });
 
 // POST endpoint
