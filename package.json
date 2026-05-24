@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-swagger-vercel-api",
+  "version": "1.0.0",
+  "description": "Node.js project with Express, Swagger, and Vercel deployment.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
